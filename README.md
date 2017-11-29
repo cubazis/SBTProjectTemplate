@@ -57,4 +57,4 @@ tags
 11. git remote -v
 12. git push origin master
 
-13*. remote set-url origin git@github.com:cubazis/SBTProjectTemplate.git
+13*. git remote set-url origin git@github.com:cubazis/SBTProjectTemplate.git
