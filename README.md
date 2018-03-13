@@ -6,48 +6,7 @@
 	echo "# SBTProjectTemplate" >> README.md
 
 3. touch .gitignore
-4. Add into git .gitignore string:
-### SBT ###
-dist/*
-
-target/
-
-lib_managed/
-
-src_managed/
-
-project/boot/
-
-project/plugins/project/
-
-.history
-
-.cache
-
-.lib/
-
-### Scala ###
-*.class
-
-*.log
-
-### Idea ###
-*.iml
-
-*.ipr
-
-*.iws
-
-.idea
-out
-
-### Other ###
-tags
-
-.*.swp
-
-.*.swo
-
+4. Add into git [.gitignore](.gitignore) string
 5. Add Main.scala
 6. git init
 7. Check by git status (.idea has to be removed from untracked)
