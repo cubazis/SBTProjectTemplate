@@ -12,8 +12,9 @@
 7. Check by git status (.idea has to be removed from untracked)
 8. git add .
 9. git commit -m "Lost commit"
-10. git remote add origin https://github.com/cubazis/SBTProjectTemplate.git
-11. git remote -v
-12. git push origin master
+10. git remote add origin git@github.com:cubazis/SBTProjectTemplate.git
+11. git remote set-url origin git@github.com:cubazis/SBTProjectTemplate.git
+12. git remote -v
+13. git push origin master
 
-13*. git remote set-url origin git@github.com:cubazis/SBTProjectTemplate.git
+
